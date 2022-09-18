@@ -4,9 +4,47 @@
   
     
     <entry>
+      <title>hexo博客搭建方法</title>
+      <link href="/posts/41709.html"/>
+      <url>/posts/41709.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="hexo博客基础框架"><a href="#hexo博客基础框架" class="headerlink" title="hexo博客基础框架"></a>hexo博客基础框架</h1><h2 id="安装需要的编辑软件"><a href="#安装需要的编辑软件" class="headerlink" title="安装需要的编辑软件"></a>安装需要的编辑软件</h2><h2 id="Git-工具"><a href="#Git-工具" class="headerlink" title="Git 工具"></a>Git 工具</h2><h4 id="本脚本所有测试均在git-bash上运行，建议使用git工具运行最佳。下载地址："><a href="#本脚本所有测试均在git-bash上运行，建议使用git工具运行最佳。下载地址：" class="headerlink" title="本脚本所有测试均在git bash上运行，建议使用git工具运行最佳。下载地址："></a>本脚本所有测试均在git bash上运行，建议使用git工具运行最佳。下载地址：</h4><ul><li>Git官网下载：<a href="https://git-scm.com/">https://git-scm.com/</a></li><li>国内镜像下载：<a href="https://npm.taobao.org/mirrors/git-for-windows/v2.22.0.windows.1/Git-2.22.0-64-bit.exe">https://npm.taobao.org/mirrors/git-for-windows/v2.22.0.windows.1/Git-2.22.0-64-bit.exe</a><h2 id="node-js-软件"><a href="#node-js-软件" class="headerlink" title="node.js 软件"></a>node.js 软件</h2><h3 id="需要安装node-js才能使用和安装hexo博客，无论是使用和不使用本脚本，都是必须安装的下载地址："><a href="#需要安装node-js才能使用和安装hexo博客，无论是使用和不使用本脚本，都是必须安装的下载地址：" class="headerlink" title="需要安装node.js才能使用和安装hexo博客，无论是使用和不使用本脚本，都是必须安装的下载地址："></a>需要安装node.js才能使用和安装hexo博客，无论是使用和不使用本脚本，都是必须安装的下载地址：</h3></li><li>官网下载 <a href="http://nodejs.cn/download/">http://nodejs.cn/download/</a></li><li>安装路径最好是：E:\develop（更改路径时默认生成develop文件夹，所以直接自定义新建一个develop文件夹）<h2 id="新建Blog文件夹"><a href="#新建Blog文件夹" class="headerlink" title="新建Blog文件夹"></a>新建Blog文件夹</h2><h3 id="在Blog目录下-打开git-bash然后执行下面这条命令即可下载完成"><a href="#在Blog目录下-打开git-bash然后执行下面这条命令即可下载完成" class="headerlink" title="在Blog目录下,打开git bash然后执行下面这条命令即可下载完成"></a>在Blog目录下,打开git bash然后执行下面这条命令即可下载完成</h3></li><li></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo 图片引用方法</title>
+      <link href="/posts/16792.html"/>
+      <url>/posts/16792.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="在hexo中使用文章资源文件夹需要在config-yaml文件中更改一下配置："><a href="#在hexo中使用文章资源文件夹需要在config-yaml文件中更改一下配置：" class="headerlink" title="在hexo中使用文章资源文件夹需要在config.yaml文件中更改一下配置："></a>在hexo中使用文章资源文件夹需要在config.yaml文件中更改一下配置：</h1><h2 id="post-asset-folder-true"><a href="#post-asset-folder-true" class="headerlink" title="post_asset_folder: true"></a>post_asset_folder: true</h2><ul><li><p>当该配置被应用后，使用hexo new命令（hexo new “文章名称”）创建新文章（即在post文件夹下生成一个md文件）时，会生成相同名字的文件夹，也就是文章资源文件夹。</p></li><li><p>由于项目会生成新的文件目录，同时会解析Markdown中的图片路径，会导致一个问题。</p></li><li><p>如在一个文件目录下，博客名为1.md，相应的存在一个1文件夹存放图片image.jpg。</p></li><li><p>在Typora编辑器中，普通的md文件使用(如图)能在编辑器中正常显示图片。</p><img src="/posts/16792/Typora%E5%BC%95%E7%94%A8%E7%AC%A6.jpg" class="image.jpg"></li><li><p>在hexo中，按理说应该是使用（如图），但网页中却无法正常显示。</p><img src="/posts/16792/%E5%BC%95%E7%94%A8%E7%AC%A6.jpg" class="image.jpg"></li></ul><h2 id="此时应该使用这样的方式来引入图片："><a href="#此时应该使用这样的方式来引入图片：" class="headerlink" title="此时应该使用这样的方式来引入图片："></a>此时应该使用这样的方式来引入图片：</h2><ul><li>输入命令：<img src="/posts/16792/%E6%AD%A3%E7%A1%AE%E5%BC%95%E7%94%A8%E5%91%BD%E4%BB%A4%E7%AC%A6.jpg" class="image.jpg">就可以正常引用图片了<h2 id="第一次引用图片"><a href="#第一次引用图片" class="headerlink" title="第一次引用图片"></a>第一次引用图片</h2></li><li>这是第一张图片<img src="/posts/16792/01.jpg" class="image.jpg"></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
-      <link href="/2022/09/16/hello-world/"/>
-      <url>/2022/09/16/hello-world/</url>
+      <link href="/posts/16107.html"/>
+      <url>/posts/16107.html</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
