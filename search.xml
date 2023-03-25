@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何科学上网,查询Goole等学术资源？</title>
+      <link href="/posts/56379.html"/>
+      <url>/posts/56379.html</url>
+      
+        <content type="html"><![CDATA[<h3>在学习和工作中，我们都避免不了要查询外网资源，比如谷歌学术等，那么，如何跳过网络围墙呢？</h3><h4>这里有两种方式:VPN和一些代理软件，如Clash;V2ray等</h4><h4>1. VPN 使用方式：安装后直接点击链接按钮即可，多数为傻瓜式使用，如下图：<h4><img src="/posts/56379/01.jpg" class="image.jpg"><h4>2. Clash使用方法</h4><h5>视频教程下载：https://wwoh.lanzoue.com/b01wj0x2d密码:77at</h5><h4>2. V2ray使用方法</h4><h5>视频教程下载：https://wwoh.lanzoue.com/iuADp0r0w6ef</h5><h5>V2ray安装包蓝奏云：https://wwoh.lanzoue.com/i8Zi70r0x3kj</h5>]]></content>
+      
+      
+      <categories>
+          
+          <category> 科研 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>R语言三线表制作</title>
       <link href="/posts/35983.html"/>
       <url>/posts/35983.html</url>
@@ -67,6 +92,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 疑问？ </tag>
+            
+        </tags>
       
     </entry>
     
