@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>代码块试验</title>
+      <link href="/posts/11617.html"/>
+      <url>/posts/11617.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="代码块试验"><a href="#代码块试验" class="headerlink" title="代码块试验"></a>代码块试验</h3><h4 id="1-直接三引号（右上角只显示COPY）"><a href="#1-直接三引号（右上角只显示COPY）" class="headerlink" title="1.直接三引号（右上角只显示COPY）"></a>1.直接三引号（右上角只显示COPY）</h4><pre><code>getwd()                           #查看当前工作文档路径setwd(&#39;E:\\R_work\\01&#39;)           #重新设置工作文档路径(推荐使用正斜杠/,即要么加成两个反斜杠\\,要么改成正斜杠/)setwd(&#39;E:/R_work/03&#39;)library(rattle)                   #查看当前工作环境可以使用的包</code></pre><h4 id="2-大括号百分号（也是右上角只显示COPY）"><a href="#2-大括号百分号（也是右上角只显示COPY）" class="headerlink" title="2.大括号百分号（也是右上角只显示COPY）"></a>2.大括号百分号（也是右上角只显示COPY）</h4><pre><code>getwd()                           #查看当前工作文档路径setwd(&#39;E:\\R_work\\01&#39;)           #重新设置工作文档路径(推荐使用正斜杠&#x2F;,即要么加成两个反斜杠\\,要么改成正斜杠&#x2F;)setwd(&#39;E:&#x2F;R_work&#x2F;03&#39;)library(rattle)                   #查看当前工作环境可以使用的包</code></pre><h4 id="3-三引号加中括号（右上角显示代码分类）"><a href="#3-三引号加中括号（右上角显示代码分类）" class="headerlink" title="3.三引号加中括号（右上角显示代码分类）"></a>3.三引号加中括号（右上角显示代码分类）</h4><h5 id="目前显示错误，highlightjs-prismjs渲染器不好弄，懒得弄了，现在前两个方法挺好的了"><a href="#目前显示错误，highlightjs-prismjs渲染器不好弄，懒得弄了，现在前两个方法挺好的了" class="headerlink" title="目前显示错误，highlightjs | prismjs渲染器不好弄，懒得弄了，现在前两个方法挺好的了"></a>目前显示错误，highlightjs | prismjs渲染器不好弄，懒得弄了，现在前两个方法挺好的了</h5><pre class=" language-[R语言]"><code class="language-[R语言]">getwd()                           #查看当前工作文档路径setwd('E:\\R_work\\01')           #重新设置工作文档路径(推荐使用正斜杠/,即要么加成两个反斜杠\\,要么改成正斜杠/)setwd('E:/R_work/03')getwd()                           #查看当前工作文档路径setwd('E:\\R_work\\01')           #重新设置工作文档路径(推荐使用正斜杠/,即要么加成两个反斜杠\\,要么改成正斜杠/)setwd('E:/R_work/03')library(rattle)  #查看当前工作环境可以使用的包pkgbuild::find_rtools (debug = TRUE)   #查看安装的Rtools工具rm(list = ls())                   #清空所有变量install.packages('pkgbuild')         #安装包install.packages('arulesViz') install.packages("https://access.togaware.com/RGtk2_2.20.36.2.zip", repos=NULL)update.packages()                 #一键更新所有包help(package='inspect')              #打开base包主页help('inspect')                   #打开itemFrequency包的语法说明书(?+包名称也可以，但注意是英文下的?)?itemFrequency#######               File选项下的Reopen with Encoding解决R脚本文件乱码问题                  #######  library(rattle)                   #查看当前工作环境可以使用的包</code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>腹部减肥针法</title>
       <link href="/posts/11336.html"/>
       <url>/posts/11336.html</url>
